@@ -1,6 +1,8 @@
-// Import stylesheets
-import './style.css';
+///----------Task-4---//
 
-// Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+let st=prompt("enter your name","");
+  let st1=prompt("enter start slice","")
+let st2=prompt("enter end slice","")
+ let fin=st.slice(st1,st2);
+alert(fin);
+
